@@ -1,0 +1,4 @@
+[submodule "securityshorts/public"]
+	path = securityshorts/public
+	url = https://github.com/anthonylucas101/securityshorts.github.io.git
+	branch = main

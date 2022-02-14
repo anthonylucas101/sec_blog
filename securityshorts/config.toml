@@ -1,0 +1,37 @@
+baseURL = 'http://securityshorts.github.io/'
+languageCode = 'en-us'
+title = 'Securitypoop Shorts'
+
+theme="hugo-theme-shell"
+
+[Params]
+[Params.Terminal]
+schema="monokai"
+
+userName = "Ando"
+pcName = "computer"
+workDir = "mydir"
+profile = "portfolio.txt"
+
+ps1Delay = 50
+stdoutDelay = 50
+commandDelay = 50
+
+description = """
+  Hi! My names Ando, 
+I'm a Flinders University Graduate with a Bachelor in Cybersecurity and Network systems :)
+Check out some of my portfolio below!
+  
+  """
+
+[Params.Tree]
+  use = true
+  folderName = "workInCyber_"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["C/C++", "https://www.example.com/"],
+    ["Python", "https://www.example.com/"],
+    ["Go", "https://golang.org/"],
+    ["Hugo", "/post/some-activity.md"],
+    ["Docker", "/post/1stpost.md"],
+  ]
